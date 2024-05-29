@@ -25,11 +25,14 @@ main {
 
 .content {
     margin: 2px;
-    background-color: red;
     border: 1px solid black;
     height: 100px;
 }
 
 .col-14 {
     width: 14%;
+}
+
+.content img {
+    width: 100%;
 }
