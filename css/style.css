@@ -5,6 +5,7 @@
 }
 
 main {
+    padding-top: 50px;
     height: 90vh;
     background-color: black;
     overflow-y: auto;
@@ -16,19 +17,19 @@ main {
 }
 
 
-row {
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-content {
-    margin: 10px;
+.content {
+    margin: 2px;
     background-color: red;
     border: 1px solid black;
-    height: 200px;
+    height: 100px;
 }
 
-col-14 {
+.col-14 {
     width: 14%;
 }
